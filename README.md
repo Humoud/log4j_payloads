@@ -9,7 +9,7 @@ I had to redact the following values but did my best to make it clear in the pay
 2. !!BASE64_VALUE!!: A base64 encoded value which contained the IP address of the honeypot.
     - I added the decoded payload with the IP address of the honeypot redacted.
 
-Used the following the honeypot: [log4j_catcher](https://github.com/entropyQueen/log4j_catcher)
+Used the following honeypot: [log4j_catcher](https://github.com/entropyQueen/log4j_catcher)
 
 # Credits
 
